@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "codelldb",
+            "program": "${workspaceFolder}/build/linux/x86_64/debug/${fileBasenameNoExtension}",
+            "args": [
+                "/home/bresilla/sync/Test54_Image_07.jpg", 
+                "/home/bresilla/down/one.jpg", 
+                "3"
+            ],
+            "cwd": "${workspaceFolder}",
+            // "preLaunchTask": "XMAKE"
+        },
+    ]
+}
